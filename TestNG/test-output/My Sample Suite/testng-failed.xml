@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Sample Suite]">
+  <test name="Yelp Search Test Case(failed)">
+    <classes>
+      <class name="testngpackage.YelpSearch">
+        <methods>
+          <include name="countsearchresults"/>
+          <include name="searchRestaurants"/>
+          <include name="homepage"/>
+        </methods>
+      </class> <!-- testngpackage.YelpSearch -->
+    </classes>
+  </test> <!-- Yelp Search Test Case(failed) -->
+</suite> <!-- Failed suite [My Sample Suite] -->

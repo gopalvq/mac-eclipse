@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="122478" started-at="2016-06-13T15:29:09Z" finished-at="2016-06-13T15:31:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="122478" started-at="2016-06-13T15:29:09Z" finished-at="2016-06-13T15:31:12Z">
+      <class name="testngpackage.YelpSearch">
+        <test-method status="PASS" signature="homepage()[pri:0, instance:testngpackage.YelpSearch@1ed4ae0f]" name="homepage" is-config="true" duration-ms="6138" started-at="2016-06-13T11:29:09Z" finished-at="2016-06-13T11:29:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method status="PASS" signature="search()[pri:0, instance:testngpackage.YelpSearch@1ed4ae0f]" name="search" duration-ms="17023" started-at="2016-06-13T11:29:15Z" finished-at="2016-06-13T11:29:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="filters()[pri:1, instance:testngpackage.YelpSearch@1ed4ae0f]" name="filters" duration-ms="99288" started-at="2016-06-13T11:29:32Z" finished-at="2016-06-13T11:31:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filters -->
+      </class> <!-- testngpackage.YelpSearch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
