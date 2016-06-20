@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="My Sample Suite">
+
+<test name="Sample Test Case">
+	<classes>
+		<class name = "testcases.sample"></class>
+	</classes>
+</test>
+
+<test name="Yelp Search Test Case">
+	<classes>
+		<class name = "testcases.YelpSearch"></class>
+	</classes>
+</test>
+
+
+</suite>
