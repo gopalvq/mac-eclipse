@@ -32,7 +32,6 @@ import jxl.read.biff.BiffException;
 import testngpackage.ExcelLib;
 
 public class YelpSearch{
-	
 	static WebDriver driver = new FirefoxDriver();
 	Logger log = Logger.getLogger("devpinoyLogger");
 	ExcelLib neighborhoodData = new ExcelLib("//Users//Venu//Documents//workspace//TestNG//TestData//Workbookxlsformat.xls");

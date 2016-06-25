@@ -31,8 +31,8 @@ public class Dice {
 			//driver.findElement(By.id(".//*[@id='sort-by-date-link']")).click();
 			
 			//click on first job posting
-			System.out.println(driver.findElement(By.xpath(".//*[@id='position0']")).getText());
-			driver.findElement(By.xpath(".//*[@id='position0']")).click();
+			System.out.println(driver.findElement(By.xpath(".//*[@id='position5']")).getText());
+			driver.findElement(By.xpath(".//*[@id='position5']")).click();
 			Thread.sleep(10000);
 			//click on Apply now
 			if(driver.findElement(By.xpath(".//*[@id='easyApplybtn']")).isEnabled()){
@@ -77,7 +77,7 @@ public class Dice {
 	//Apply for job
 	public void applyJob() throws Exception{
 		try{
-		driver.findElement(By.xpath(".//*[@id='easyApplybtn']")).click();  
+		driver.findElement(By.xpath(".//*[@id='applybtn']")).click();  
 		Thread.sleep(1000);
 		
 		Select drpResume = new Select(driver.findElement(By.xpath(".//*[@id='resume-select']")));
