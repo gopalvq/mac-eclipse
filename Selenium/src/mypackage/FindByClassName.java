@@ -13,11 +13,11 @@ public class FindByClassName {
 			String baseURL = "http://www.baltechglobal.com/";
 			driver.get(baseURL);
 			
-			driver.findElement(By.className("style46")).click();
+			driver.findElement(By.className(".style46")).click();
 			System.out.println(driver.getTitle());
 			Thread.sleep(3000);
 			
-			driver.findElement(By.className("style46")).click();
+			driver.findElement(By.className(".style47")).click();
 			System.out.println(driver.getTitle());
 			driver.quit();
 		}
